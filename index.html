@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+       <div class="introduction">
+        Currency Converter
+       </div>
+    </div>
+    <div class="container">
+        <div class="img">
+            <img id="image" src="https://thumbs.dreamstime.com/b/money-convert-icon-coin-logo-currency-exchange-white-money-convert-icon-coin-logo-currency-exchange-137327875.jpg" alt="icon of image change">
+        </div>
+        <div class="info"> CURRENCY CONVERTER</div>
+        <div id="amount">
+            <p id="item01"> AMOUNT: </p>
+            <input type="amount" id="item02" placeholder="Enter the amount" min="0"> 
+        </div>
+        <div class="dropdowns">
+            <select id="from-country-select"></select>
+            <select id="to-country-select"></select>
+        </div>
+        <div class="button">
+            <button id="item05">Convert</button>
+        </div>
+        <div class="display">
+            <input type="amount" id="item06" placeholder="Converted Value">
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Currency Converter. All rights reserved.</p>
+        <p>Exchange rates powered by <a href="https://exchangeratesapi.io/" target="_blank" id="footer01">Exchange Rates API</a></p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
